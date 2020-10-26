@@ -5,11 +5,12 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 /**
- * @author cmd
- * @data 2020/4/10 19:27
- */
-public abstract class BaseServer {
-    private Logger logger = LoggerFactory.getLogger(BaseServer.class);
+ * //TODO 异常处理
+ * @Author barrett
+ * @Date 2020/10/26 11:01
+ **/
+public abstract class TransactionalException {
+    private Logger logger = LoggerFactory.getLogger(TransactionalException.class);
 
     protected void handleException(TransactionInfo transactionInfo, Exception ex) throws Exception {
         if (!transactionInfo.isMultiThreading()) {

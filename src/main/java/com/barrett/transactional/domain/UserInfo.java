@@ -3,9 +3,10 @@ package com.barrett.transactional.domain;
 import lombok.Data;
 
 /**
- * @author cmd
- * @data 2020/4/10 19:41
- */
+ * //TODO
+ * @Author barrett
+ * @Date 2020/10/26 13:38
+ **/
 @Data
 public class UserInfo {
     private Integer id;

@@ -3,10 +3,10 @@ package com.barrett.transactional.domain;
 import lombok.Data;
 
 /**
- * 事务控制
- *
- * @author CMD
- */
+ * //TODO 事务控制
+ * @Author barrett
+ * @Date 2020/10/26 13:37
+ **/
 @Data
 public class RollBack {
     private Boolean isRollBack;

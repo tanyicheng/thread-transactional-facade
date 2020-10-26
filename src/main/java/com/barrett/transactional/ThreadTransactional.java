@@ -10,11 +10,10 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 import java.io.File;
 
 /**
- * Canal Client SpringBoot 启动类
- *
- * @author cmd
- * @date 2020/3/11
- */
+ * //TODO SpringBoot 启动类
+ * @Author barrett
+ * @Date 2020/10/26 11:03
+ **/
 @EnableScheduling
 @SpringBootApplication
 @EnableTransactionManagement

@@ -7,9 +7,9 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 /**
- * @author cmd
- * @data 2020/4/10 19:19
- */
+ * @Author barrett
+ * @Date 2020/10/26 11:03
+ **/
 @Repository
 public interface SaveDataMapper {
     /**

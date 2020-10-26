@@ -7,9 +7,10 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.LinkedBlockingDeque;
 
 /**
- * @author cmd
- * @data 2020/4/10 19:21
- */
+ * //TODO
+ * @Author barrett
+ * @Date 2020/10/26 13:37
+ **/
 @Data
 public class TransactionInfo {
     /**

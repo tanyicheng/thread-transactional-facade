@@ -17,11 +17,10 @@ import org.springframework.jdbc.datasource.DataSourceTransactionManager;
 import javax.sql.DataSource;
 
 /**
- * transactional数据库连接配置
- *
- * @author cmd
- * @date 2020/3/11
- */
+ * //TODO transactional数据库连接配置
+ * @Author barrett
+ * @Date 2020/10/26 10:59
+ **/
 @Slf4j
 @Configuration
 @MapperScan(basePackages = {"com.barrett.transactional.dao"}, sqlSessionTemplateRef = "transactionalSqlSessionTemplate")
