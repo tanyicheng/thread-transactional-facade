@@ -34,6 +34,7 @@ public class InsertDataService extends TransactionalException {
 
             if (size == 4)
                 System.out.println(1 / 0);
+
             transactionInfo.getThreadResult().put(TaskService.thread_result_succ);
         } catch (Exception e) {
             log.error("saveData error ", e);

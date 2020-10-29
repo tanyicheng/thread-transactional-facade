@@ -25,8 +25,8 @@ public class SaveDataController {
      * @Author barrett
      * @Date 2020/10/23 09:10
      **/
-    @GetMapping("/test")
-    public boolean test(@RequestParam("size") Integer size) {
+    @GetMapping("/save")
+    public boolean save(@RequestParam("size") Integer size) {
         if (size < 1) {
             log.warn("createUser param is error");
             return false;

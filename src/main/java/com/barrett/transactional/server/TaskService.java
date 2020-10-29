@@ -124,6 +124,7 @@ public class TaskService extends ThreadTransactionalFacade {
         @Override
         public void run() {
             try {
+                //如果需要切数据源的，写在进入方法前
                 log.info("HandleChildTask start 子线程: {}", Thread.currentThread().getName());
                 insertDataService.saveData(transactionInfo,size);
             } catch (Exception e) {
