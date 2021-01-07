@@ -30,7 +30,7 @@ public class InsertDataService extends TransactionalException {
             userInfo.setName("子--");
             //如果 HandleChildTask 是单独的一个类，则无法使用 @Autowired 注入，只能通过下面的方式获取
 //            SaveDataMapper mapper = (SaveDataMapper) ContextUtils.getBean("saveDataMapper");
-            saveDataMapper.saveDate(userInfo);
+            saveDataMapper.saveUser(userInfo);
 
             if (size == 4)
                 System.out.println(1 / 0);

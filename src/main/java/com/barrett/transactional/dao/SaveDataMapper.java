@@ -19,6 +19,6 @@ public interface SaveDataMapper {
      * @throws Exception sql异常
      */
     void saveDateList(@Param("userInfos") List<UserInfo> userInfos) throws Exception;
-    void saveDate(UserInfo userInfo) throws Exception;
+    void saveUser(@Param("userInfo") UserInfo userInfo) throws Exception;
 
 }

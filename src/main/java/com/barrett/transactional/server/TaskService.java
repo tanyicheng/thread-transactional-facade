@@ -46,7 +46,7 @@ public class TaskService extends ThreadTransactionalFacade {
             //TODO 主线程任务
             UserInfo userInfo = new UserInfo();
             userInfo.setName("主==");
-            saveDataMapper.saveDate(userInfo);
+            saveDataMapper.saveUser(userInfo);
 
             if (size == 3)
                 System.out.println(1 / 0);
