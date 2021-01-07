@@ -36,7 +36,6 @@ public abstract class AbsTaskService extends ThreadTransactionalFacade {
 
         String message = "操作成功";
         try {
-            //TODO ======== 业务逻辑 start =========
             mainTask(obj);
 
             //判断子线程是否成功
@@ -48,7 +47,6 @@ public abstract class AbsTaskService extends ThreadTransactionalFacade {
                 }
             }
 
-            //TODO ======== 业务逻辑 end =========
         } catch (Exception e) {
             //主线程发生异常回滚子线程
             rollBack.setIsRollBack(true);
